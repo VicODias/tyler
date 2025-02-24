@@ -6,7 +6,7 @@
 
 
 body{
-   background-color: white;
+   background-color: #f2b1c7;
    color: #000000;
 
    font-variant-numeric: oldstyle-nums;
@@ -31,32 +31,48 @@ body{
 }
    */
 
-h1{
-  font-family: "peridot-devanagari", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 200px;
 
+.section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
 }
 
+.section img{
+  width: 900px;
+  height: auto;
+}
+
+.group img{
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.title{
+  font-family: "neil-bold-pro", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+   font-size: 50px;
+   line-height: 27px;
+   justify-content: center;
+   align-items: center;
+}
 
 p{
    font-family: ff-real-text-pro, sans-serif;
-   font-weight: 400;
+   text-indent: 2em;
+   font-weight: 200;
    font-style: normal;
-   font-size: 18px;
+   font-size: 16px;
    line-height: 27px;
 }
 
-p+p{
-   text-indent: 2em;
-}
 
-i {
-  font-style: italic;
-}
-
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width:550px) {
   h1 {
     font-size:  34px;
     line-height: 45px;
@@ -80,6 +96,7 @@ sub {
   position: relative;
   scroll-snap-align: start;
 }
+
 /* Test */
 .overlay {
   position: absolute;
@@ -92,4 +109,4 @@ sub {
 
 
 /* Background images for each principle */
-#principle1 { background-image: url('../image/gettyimages-1152972116-2000-921c5e624d6940849479462f248c43f4.jpg'); }
+#principle1 { background-image: url('/image/Tyler\ Homepage\ 2.jpg')}
